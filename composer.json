@@ -1,0 +1,19 @@
+{
+    "name": "utilisateur/myframeworkphp",
+    "description": "Mon premier Framework Php",
+    "license": "WolfCorp",
+    "authors": [
+        {
+            "name": "Alexis",
+            "email": "alexisdebuire@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Core\\":"core",
+            "App\\":"src"
+        }
+    }
+
+ }   
